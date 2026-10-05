@@ -37,3 +37,18 @@ msgstr "Логін SFTP"
 #: model:ir.model.fields,field_description:storage_backend_sftp.field_storage_backend__sftp_port
 msgid "SFTP Port"
 msgstr "Порт SFTP"
+
+#. module: storage_backend_sftp
+#: model:ir.model.fields.selection,name:storage_backend_sftp.selection__storage_backend__sftp_auth_method__ssh_key
+msgid "Private key"
+msgstr "Закритий ключ"
+
+#. module: storage_backend_sftp
+#: model:ir.model.fields,field_description:storage_backend_sftp.field_storage_backend__sftp_password
+msgid "SFTP Password"
+msgstr "Пароль SFTP"
+
+#. module: storage_backend_sftp
+#: model:ir.model.fields,field_description:storage_backend_sftp.field_storage_backend__sftp_ssh_private_key
+msgid "SSH private key"
+msgstr "Приватний SSH-ключ"

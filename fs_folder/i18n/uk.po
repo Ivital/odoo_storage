@@ -60,3 +60,44 @@ msgstr "Корінь"
 #: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
 msgid "User"
 msgstr "Користувач"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/simple_dialog/simple_dialog.esm.js:0
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/simple_dialog/simple_dialog.esm.js:0
+msgid "Confirmation"
+msgstr "Підтвердження"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid "Copy"
+msgstr "Копіювати"
+
+#. module: fs_folder
+#: model:ir.model.fields.selection,name:fs_folder.selection__ir_model_fields__ttype__fs_folder
+msgid "External Folder"
+msgstr "Зовнішня папка"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/simple_dialog/simple_dialog.esm.js:0
+msgid "Ok"
+msgstr "Гаразд"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+msgid "Refresh"
+msgstr "Оновити"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid "Rename"
+msgstr "Перейменувати"

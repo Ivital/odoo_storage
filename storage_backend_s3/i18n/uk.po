@@ -27,3 +27,23 @@ msgstr "Кошик"
 #: model:ir.model.fields,field_description:storage_backend_s3.field_storage_backend__aws_region
 msgid "Region"
 msgstr "Регіон"
+
+#. module: storage_backend_s3
+#: model:ir.model.fields,field_description:storage_backend_s3.field_storage_backend__aws_access_key_id
+msgid "Access Key ID"
+msgstr "ID ключа доступу"
+
+#. module: storage_backend_s3
+#: model:ir.model.fields,field_description:storage_backend_s3.field_storage_backend__aws_file_acl
+msgid "Aws File Acl"
+msgstr "ACL файлу AWS"
+
+#. module: storage_backend_s3
+#: model:ir.model.fields,field_description:storage_backend_s3.field_storage_backend__aws_other_region
+msgid "Other region"
+msgstr "Інший регіон"
+
+#. module: storage_backend_s3
+#: model:ir.model.fields.selection,name:storage_backend_s3.selection__storage_backend__aws_file_acl__private
+msgid "private"
+msgstr "приватний"

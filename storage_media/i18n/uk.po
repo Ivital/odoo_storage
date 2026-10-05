@@ -172,3 +172,67 @@ msgstr "URL"
 #: model:ir.model.fields,field_description:storage_media.field_storage_media__url_path
 msgid "Url Path"
 msgstr "Шлях URL"
+
+#. module: storage_media
+#: model:ir.model.fields,field_description:storage_media.field_storage_media__backend_categ_id
+msgid "Backend Category"
+msgstr "Категорія бекенду"
+
+#. module: storage_media
+#: model_terms:ir.ui.view,arch_db:storage_media.storage_file_replace_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: storage_media
+#: model:ir.model.fields,field_description:storage_media.field_storage_media__checksum
+msgid "Checksum/SHA1"
+msgstr "Контрольна сума/SHA1"
+
+#. module: storage_media
+#: model_terms:ir.ui.view,arch_db:storage_media.storage_file_replace_view_form
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: storage_media
+#: model:ir.model.fields,field_description:storage_media.field_storage_media__filename
+msgid "Filename without extension"
+msgstr "Назва файлу без розширення"
+
+#. module: storage_media
+#: model_terms:ir.ui.view,arch_db:storage_media.storage_media_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: storage_media
+#: model:ir.model.fields,field_description:storage_media.field_storage_media__human_file_size
+msgid "Human File Size"
+msgstr "Людинозрозумілий розмір файлу"
+
+#. module: storage_media
+#: model:ir.model.fields,field_description:storage_media.field_storage_media__write_uid
+#: model:ir.model.fields,field_description:storage_media.field_storage_media_type__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: storage_media
+#: model:ir.model.fields,field_description:storage_media.field_storage_media__write_date
+#: model:ir.model.fields,field_description:storage_media.field_storage_media_type__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: storage_media
+#: model:ir.model.fields,field_description:storage_media.field_storage_media__relative_path
+msgid "Relative Path"
+msgstr "Відносний шлях"
+
+#. module: storage_media
+#: model:ir.actions.act_window,name:storage_media.storage_replace_file_action
+#: model_terms:ir.ui.view,arch_db:storage_media.storage_file_replace_view_form
+#: model_terms:ir.ui.view,arch_db:storage_media.storage_media_view_form
+msgid "Replace File"
+msgstr "Замінити файл"
+
+#. module: storage_media
+#: model:ir.actions.server,name:storage_media.storage_media_swap_backend_server_action
+msgid "Swap Storage Backend"
+msgstr "Замінити бекенд сховища"

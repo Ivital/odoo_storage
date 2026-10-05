@@ -33,3 +33,60 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:microsoft_drive_account.field_microsoft_drive_account_reset__user_id
 msgid "User"
 msgstr "Користувач"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.microsoft_drive_reset_account_form_view
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.microsoft_drive_reset_account_form_view
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields.selection,name:microsoft_drive_account.selection__res_users__microsoft_drive_status__connected
+msgid "Connected"
+msgstr "Підключено"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.res_users_form_view
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.res_users_simple_form_view
+msgid "Drive"
+msgstr "Диск"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields,field_description:microsoft_drive_account.field_microsoft_drive_account_reset__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields,field_description:microsoft_drive_account.field_microsoft_drive_account_reset__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: microsoft_drive_account
+#: model:ir.actions.act_window,name:microsoft_drive_account.microsoft_drive_reset_account_action
+#: model:ir.model,name:microsoft_drive_account.model_microsoft_drive_account_reset
+msgid "Microsoft Drive Account Reset"
+msgstr "Скидання облікового запису Microsoft Drive"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields.selection,name:microsoft_drive_account.selection__res_users__microsoft_drive_status__not_connected
+msgid "Not connected"
+msgstr "Не підключено"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.res_users_form_view
+msgid "Refresh Token"
+msgstr "Токен оновлення"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.res_users_form_view
+msgid "Token Validity"
+msgstr "Термін дії токена"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.res_users_form_view
+msgid "User Token"
+msgstr "Токен користувача"

@@ -12,3 +12,8 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_fs_storage_environment
 msgid "Filesystem Storage Backend"
 msgstr "Бекенд сховища файлової системи"
+
+#. module: fs_storage_environment
+#: model:ir.model.fields,field_description:fs_storage_environment.field_fs_storage__server_env_defaults
+msgid "Server Env Defaults"
+msgstr "Типові значення серверного середовища"

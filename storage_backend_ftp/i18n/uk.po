@@ -32,3 +32,13 @@ msgstr "Пасивний FTP"
 #: model:ir.model.fields,field_description:storage_backend_ftp.field_storage_backend__ftp_port
 msgid "FTP Port"
 msgstr "Порт FTP"
+
+#. module: storage_backend_ftp
+#: model:ir.model.fields,field_description:storage_backend_ftp.field_storage_backend__ftp_password
+msgid "FTP Password"
+msgstr "Пароль FTP"
+
+#. module: storage_backend_ftp
+#: model:ir.model.fields.selection,name:storage_backend_ftp.selection__storage_backend__ftp_security__none
+msgid "None"
+msgstr "Немає"

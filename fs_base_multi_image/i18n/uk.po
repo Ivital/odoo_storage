@@ -68,3 +68,48 @@ msgstr "Назва"
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: fs_base_multi_image
+#: model:ir.actions.act_window,name:fs_base_multi_image.fs_image_act_window
+msgid "Fs Image"
+msgstr "Зображення FS"
+
+#. module: fs_base_multi_image
+#: model_terms:ir.ui.view,arch_db:fs_base_multi_image.fs_image_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: fs_base_multi_image
+#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__image
+msgid "Image (original)"
+msgstr "Зображення (оригінал)"
+
+#. module: fs_base_multi_image
+#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fs_base_multi_image
+#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fs_base_multi_image
+#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__link_existing
+msgid "Link Existing"
+msgstr "Пов’язати наявне"
+
+#. module: fs_base_multi_image
+#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__image_id
+msgid "Linked image"
+msgstr "Пов'язане зображення"
+
+#. module: fs_base_multi_image
+#: model_terms:ir.ui.view,arch_db:fs_base_multi_image.fs_image_search_view
+msgid "MimeType"
+msgstr "MIME-тип"
+
+#. module: fs_base_multi_image
+#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__specific_image
+msgid "Specific Image"
+msgstr "Конкретне зображення"

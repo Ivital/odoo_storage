@@ -139,3 +139,54 @@ msgstr "Розмір X"
 #: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__size_y
 msgid "Y size"
 msgstr "Розмір Y"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__backend_categ_id
+msgid "Backend Category"
+msgstr "Категорія бекенду"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__checksum
+msgid "Checksum/SHA1"
+msgstr "Контрольна сума/SHA1"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__filename
+msgid "Filename without extension"
+msgstr "Назва файлу без розширення"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__human_file_size
+msgid "Human File Size"
+msgstr "Людинозрозумілий розмір файлу"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_thumbnail_mixin__image_medium_url
+msgid "Medium thumb URL"
+msgstr "URL середньої мініатюри"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_storage_thumbnail__relative_path
+msgid "Relative Path"
+msgstr "Відносний шлях"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,field_description:storage_thumbnail.field_thumbnail_mixin__image_small_url
+msgid "Small thumb URL"
+msgstr "URL малої мініатюри"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields.selection,name:storage_thumbnail.selection__storage_file__file_type__thumbnail
+#: model_terms:ir.ui.view,arch_db:storage_thumbnail.view_thumbnail_form
+msgid "Thumbnail"
+msgstr "Мініатюра"

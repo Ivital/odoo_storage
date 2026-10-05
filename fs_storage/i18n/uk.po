@@ -82,3 +82,73 @@ msgstr "Протокол"
 #: model:ir.model.fields,field_description:fs_storage.field_ir_model_fields__storage_id
 msgid "Storage"
 msgstr "Сховище"
+
+#. module: fs_storage
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
+msgid "Available options"
+msgstr "Доступні параметри"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__check_connection_method
+#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__check_connection_method
+msgid "Check Connection Method"
+msgstr "Метод перевірки з'єднання"
+
+#. module: fs_storage
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_test_connection_form_view
+msgid "Close"
+msgstr "Закрити"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__directory_path
+msgid "Directory Path"
+msgstr "Шлях каталогу"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__field_xmlids
+msgid "Field Xmlids"
+msgstr "XMLID полів"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__is_cacheable
+msgid "Is Cacheable"
+msgstr "Можна кешувати"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__json_options
+msgid "Json Options"
+msgstr "Параметри JSON"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__write_uid
+#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__write_date
+#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__model_xmlids
+msgid "Model Xmlids"
+msgstr "XMLID моделей"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__protocol_descr
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
+msgid "Protocol Descr"
+msgstr "Опис протоколу"
+
+#. module: fs_storage
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_test_connection_form_view
+msgid "Test Connection"
+msgstr "Перевірити з'єднання"
+
+#. module: fs_storage
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_test_connection_form_view
+msgid "Test connection"
+msgstr "Перевірити з'єднання"

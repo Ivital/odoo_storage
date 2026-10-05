@@ -44,3 +44,63 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:fs_attachment.field_product_document__internal_url
 msgid "Internal URL"
 msgstr "Внутрішній URL"
+
+#. module: fs_attachment
+#: model_terms:ir.ui.view,arch_db:fs_attachment.fs_storage_form_view
+msgid "Attachment's Url"
+msgstr "URL вкладення"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_fs_storage__base_url_for_files
+msgid "Base Url For Files"
+msgstr "Базовий URL для файлів"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__fs_filename
+#: model:ir.model.fields,field_description:fs_attachment.field_product_document__fs_filename
+msgid "File Name into the filesystem storage"
+msgstr "Назва файлу у сховищі файлової системи"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__fs_storage_id
+#: model:ir.model.fields,field_description:fs_attachment.field_product_document__fs_storage_id
+msgid "Filesystem Storage"
+msgstr "Сховище файлової системи"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__fs_storage_code
+#: model:ir.model.fields,field_description:fs_attachment.field_product_document__fs_storage_code
+msgid "Filesystem Storage Code"
+msgstr "Код сховища файлової системи"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__fs_url
+#: model:ir.model.fields,field_description:fs_attachment.field_product_document__fs_url
+msgid "Filesystem URL"
+msgstr "URL файлової системи"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_ir_attachment__fs_url_path
+#: model:ir.model.fields,field_description:fs_attachment.field_product_document__fs_url_path
+msgid "Filesystem URL Path"
+msgstr "Шлях URL файлової системи"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__fs_storage_code
+msgid "Storage Code"
+msgstr "Код зберігання"
+
+#. module: fs_attachment
+#: model:ir.model.fields,field_description:fs_attachment.field_fs_file_gc__store_fname
+msgid "Stored Filename"
+msgstr "Збережена назва файлу"

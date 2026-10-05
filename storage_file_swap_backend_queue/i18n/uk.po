@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model,name:storage_file_swap_backend_queue.model_storage_backend
 msgid "Storage Backend"
 msgstr "Бекенд сховища"
+
+#. module: storage_file_swap_backend_queue
+#: model:ir.model.fields,field_description:storage_file_swap_backend_queue.field_storage_file_swap_backend__use_queue
+msgid "Use Queue Jobs"
+msgstr "Використовувати завдання черги"

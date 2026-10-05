@@ -79,3 +79,45 @@ msgstr "Розмір X"
 #: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__size_y
 msgid "Y size"
 msgstr "Розмір Y"
+
+#. module: fs_image_thumbnail
+#: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view
+msgid "Base Name"
+msgstr "Базова назва"
+
+#. module: fs_image_thumbnail
+#: model:ir.actions.act_window,name:fs_image_thumbnail.fs_thumbnail_act_window
+msgid "Fs Thumbnail"
+msgstr "Мініатюра FS"
+
+#. module: fs_image_thumbnail
+#: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: fs_image_thumbnail
+#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fs_image_thumbnail
+#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fs_image_thumbnail
+#: model_terms:ir.ui.view,arch_db:fs_image_thumbnail.fs_image_thumbnail_mixin_search_view
+msgid "MimeType"
+msgstr "MIME-тип"
+
+#. module: fs_image_thumbnail
+#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__original_image
+#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__original_image
+msgid "Original Image"
+msgstr "Оригінальне зображення"
+
+#. module: fs_image_thumbnail
+#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_image_thumbnail_mixin__base_name
+#: model:ir.model.fields,field_description:fs_image_thumbnail.field_fs_thumbnail__base_name
+msgid "The base name of the thumbnail image (without extension)"
+msgstr "Базова назва зображення мініатюри (без розширення)"

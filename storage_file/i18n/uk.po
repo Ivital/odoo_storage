@@ -145,3 +145,94 @@ msgstr "URL"
 #: model:ir.model.fields,field_description:storage_file.field_storage_file__url_path
 msgid "Url Path"
 msgstr "Шлях URL"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file__backend_categ_id
+msgid "Backend Category"
+msgstr "Категорія бекенду"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_backend__base_url_for_files
+msgid "Base Url For Files"
+msgstr "Базовий URL для файлів"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_file_swap_backend_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file__checksum
+msgid "Checksum/SHA1"
+msgstr "Контрольна сума/SHA1"
+
+#. module: storage_file
+#: model:ir.model.fields.selection,name:storage_file.selection__storage_backend__served_by__external
+msgid "External"
+msgstr "Зовнішній"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file__filename
+msgid "Filename without extension"
+msgstr "Назва файлу без розширення"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_file_swap_backend_view_form
+msgid "Files to swap"
+msgstr "Файли для заміни"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_file_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file__human_file_size
+msgid "Human File Size"
+msgstr "Людинозрозумілий розмір файлу"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file__write_uid
+#: model:ir.model.fields,field_description:storage_file.field_storage_file_replace__write_uid
+#: model:ir.model.fields,field_description:storage_file.field_storage_file_swap_backend__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file__write_date
+#: model:ir.model.fields,field_description:storage_file.field_storage_file_replace__write_date
+#: model:ir.model.fields,field_description:storage_file.field_storage_file_swap_backend__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: storage_file
+#: model:ir.model.fields.selection,name:storage_file.selection__storage_backend__filename_strategy__name_with_id
+msgid "Name and ID"
+msgstr "Назва та ID"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file__relative_path
+msgid "Relative Path"
+msgstr "Відносний шлях"
+
+#. module: storage_file
+#: model:ir.model.fields.selection,name:storage_file.selection__storage_backend__filename_strategy__hash
+msgid "SHA hash"
+msgstr "SHA-хеш"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file_swap_backend__source_backend_id
+msgid "Source Storage"
+msgstr "Початкове сховище"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_file_swap_backend_view_form
+msgid "Swap Files"
+msgstr "Поміняти файли місцями"
+
+#. module: storage_file
+#: model:ir.actions.act_window,name:storage_file.storage_file_swap_backend_action
+#: model:ir.actions.server,name:storage_file.storage_file_swap_backend_server_action
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_file_swap_backend_view_form
+msgid "Swap Storage Backend"
+msgstr "Замінити бекенд сховища"

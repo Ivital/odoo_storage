@@ -28,3 +28,27 @@ msgstr "Зображення"
 #: model:ir.model.fields,field_description:fs_image.field_fs_image_mixin__image_medium
 msgid "Image medium"
 msgstr "Середнє зображення"
+
+#. module: fs_image
+#: model:ir.model.fields,field_description:fs_image.field_ir_attachment__alt_text
+#: model:ir.model.fields,field_description:fs_image.field_product_document__alt_text
+msgid "Alternative Text"
+msgstr "Альтернативний текст"
+
+#. module: fs_image
+#. odoo-javascript
+#: code:addons/fs_image/static/src/views/dialogs/alttext_dialog.xml:0
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: fs_image
+#. odoo-javascript
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+msgid "Clear"
+msgstr "Очистити"
+
+#. module: fs_image
+#. odoo-javascript
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+msgid "Edit"
+msgstr "Редагувати"
