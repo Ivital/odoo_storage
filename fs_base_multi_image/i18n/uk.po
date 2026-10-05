@@ -113,3 +113,8 @@ msgstr "MIME-тип"
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__specific_image
 msgid "Specific Image"
 msgstr "Конкретне зображення"
+
+#. module: fs_base_multi_image
+#: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__specific_image_medium
+msgid "Specific Image (128)"
+msgstr "Спеціальне зображення (128)"

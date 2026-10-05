@@ -90,3 +90,54 @@ msgstr "Термін дії токена"
 #: model_terms:ir.ui.view,arch_db:microsoft_drive_account.res_users_form_view
 msgid "User Token"
 msgstr "Токен користувача"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.res_users_simple_form_view
+msgid ""
+"<span invisible=\"microsoft_drive_status == 'connected'\">\n"
+"                            You are not connected to Drive. Click the button below to\n"
+"                            connect.\n"
+"                        </span>\n"
+"                        <span invisible=\"microsoft_drive_status == 'not_connected'\">\n"
+"                            You are connected to Drive. Click the button below to\n"
+"                            disconnect or reset your account.\n"
+"                        </span>"
+msgstr ""
+"<span invisible=\"microsoft_drive_status == 'connected'\">\n"
+"                            Ви не підключені до Drive. Натисніть кнопку нижче, щоб\n"
+"                            підключитися.\n"
+"                        </span>\n"
+"                        <span invisible=\"microsoft_drive_status == 'not_connected'\">\n"
+"                            Ви підключені до Drive. Натисніть кнопку нижче, щоб\n"
+"                            відключитися або скинути обліковий запис.\n"
+"                        </span>"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields,field_description:microsoft_drive_account.field_res_users__microsoft_drive_status
+msgid "Microsoft Drive Connection Status"
+msgstr "Стан підключення Microsoft Drive"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields,field_description:microsoft_drive_account.field_res_users__microsoft_drive_oauth2_non_interactive
+msgid "Microsoft Drive OAuth2 (non-interactive)"
+msgstr "Microsoft Drive OAuth2 (неінтерактивний)"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields,field_description:microsoft_drive_account.field_res_config_settings__drive_microsoft_client_scope
+msgid "Microsoft Drive Scope"
+msgstr "Область Microsoft Drive"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields,field_description:microsoft_drive_account.field_res_users__microsoft_drive_token
+msgid "Microsoft Drive Token"
+msgstr "Токен Microsoft Drive"
+
+#. module: microsoft_drive_account
+#: model:ir.model.fields,field_description:microsoft_drive_account.field_res_users__microsoft_drive_token_validity
+msgid "Microsoft Drive Token Validity"
+msgstr "Строк дії токена Microsoft Drive"
+
+#. module: microsoft_drive_account
+#: model_terms:ir.ui.view,arch_db:microsoft_drive_account.microsoft_drive_reset_account_form_view
+msgid "Reset Outlook Drive Account?"
+msgstr "Скинути обліковий запис Outlook Drive?"

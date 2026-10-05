@@ -236,3 +236,38 @@ msgstr "Замінити файл"
 #: model:ir.actions.server,name:storage_media.storage_media_swap_backend_server_action
 msgid "Swap Storage Backend"
 msgstr "Замінити бекенд сховища"
+
+#. module: storage_media
+#: model:ir.model.fields,help:storage_media.field_storage_media__url_path
+msgid "Accessible path, no base URL"
+msgstr "Доступний шлях без базової URL-адреси"
+
+#. module: storage_media
+#: model:ir.model.fields,help:storage_media.field_storage_media__backend_categ_id
+msgid "Category to group backends for swapping operations"
+msgstr "Категорія для групування бекендів для операцій заміни"
+
+#. module: storage_media
+#: model:ir.model.fields,help:storage_media.field_storage_media__internal_url
+msgid "HTTP URL to load the file directly from storage."
+msgstr "HTTP URL для прямого завантаження файлу зі сховища."
+
+#. module: storage_media
+#: model:ir.model.fields,help:storage_media.field_storage_media__url
+msgid "HTTP accessible path to the file"
+msgstr "HTTP-доступний шлях до файлу"
+
+#. module: storage_media
+#: model:ir.model.fields,help:storage_media.field_storage_media__is_public
+msgid "Reflects the `is_public` flag of the related backend."
+msgstr "Відображає прапорець `is_public` пов'язаного бекенду."
+
+#. module: storage_media
+#: model:ir.model.fields,help:storage_media.field_storage_media__relative_path
+msgid "Relative location for backend"
+msgstr "Відносне місце для бекенду"
+
+#. module: storage_media
+#: model:ir.model.fields,help:storage_media.field_storage_media__slug
+msgid "Slug-ified name with ID for URL"
+msgstr "Slug-ім'я з ID для URL"

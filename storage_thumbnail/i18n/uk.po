@@ -190,3 +190,38 @@ msgstr "URL малої мініатюри"
 #: model_terms:ir.ui.view,arch_db:storage_thumbnail.view_thumbnail_form
 msgid "Thumbnail"
 msgstr "Мініатюра"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__url_path
+msgid "Accessible path, no base URL"
+msgstr "Доступний шлях без базової URL-адреси"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__backend_categ_id
+msgid "Category to group backends for swapping operations"
+msgstr "Категорія для групування бекендів для операцій заміни"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__internal_url
+msgid "HTTP URL to load the file directly from storage."
+msgstr "HTTP URL для прямого завантаження файлу зі сховища."
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__url
+msgid "HTTP accessible path to the file"
+msgstr "HTTP-доступний шлях до файлу"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__is_public
+msgid "Reflects the `is_public` flag of the related backend."
+msgstr "Відображає прапорець `is_public` пов'язаного бекенду."
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__relative_path
+msgid "Relative location for backend"
+msgstr "Відносне місце для бекенду"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__slug
+msgid "Slug-ified name with ID for URL"
+msgstr "Slug-ім'я з ID для URL"

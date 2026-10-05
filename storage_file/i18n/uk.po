@@ -236,3 +236,129 @@ msgstr "Поміняти файли місцями"
 #: model_terms:ir.ui.view,arch_db:storage_file.storage_file_swap_backend_view_form
 msgid "Swap Storage Backend"
 msgstr "Замінити бекенд сховища"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_backend_view_form
+msgid ""
+"<strong>Note:</strong> Without a CDN base URL, files will be proxied\n"
+"                    through Odoo. This is acceptable for internal use with low traffic\n"
+"                    but suboptimal for high-volume public access as every request loads\n"
+"                    the file from the storage backend into memory."
+msgstr ""
+"<strong>Примітка:</strong> без базової URL-адреси CDN файли проксіюватимуться\n"
+"                    через Odoo. Це прийнятно для внутрішнього використання з низьким трафіком,\n"
+"                    але не оптимально для великого обсягу публічного доступу, оскільки кожен запит завантажує\n"
+"                    файл зі сховища в пам'ять."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_file__url_path
+msgid "Accessible path, no base URL"
+msgstr "Доступний шлях без базової URL-адреси"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_backend__backend_view_use_internal_url
+msgid "Backend View Use Internal Url"
+msgstr "Подання бекенду використовує внутрішню URL"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_backend_view_form
+msgid "Base URL used for files"
+msgstr "Базова URL-адреса для файлів"
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_file__backend_categ_id
+#: model:ir.model.fields,help:storage_file.field_storage_file_swap_backend__source_backend_categ_id
+msgid "Category to group backends for swapping operations"
+msgstr "Категорія для групування бекендів для операцій заміни"
+
+#. module: storage_file
+#: model:ir.actions.server,name:storage_file.ir_cron_clean_storage_file_ir_actions_server
+msgid "Clean Storage File"
+msgstr "Очистити файл сховища"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file_swap_backend__dest_backend_id
+msgid "Destination Storage"
+msgstr "Сховище призначення"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_backend__filename_strategy
+msgid "Filename Strategy"
+msgstr "Стратегія імені файлу"
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_file__internal_url
+msgid "HTTP URL to load the file directly from storage."
+msgstr "HTTP URL для прямого завантаження файлу зі сховища."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_file__url
+msgid "HTTP accessible path to the file"
+msgstr "HTTP-доступний шлях до файлу"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_backend_view_form
+msgid ""
+"If you have changed parameters via server env settings the URL might look "
+"outdated."
+msgstr ""
+"Якщо ви змінили параметри через налаштування середовища сервера, URL може "
+"виглядати застарілим."
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_backend_view_form
+msgid "Recompute base URL for files"
+msgstr "Перерахувати базову URL-адресу для файлів"
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_file__is_public
+msgid "Reflects the `is_public` flag of the related backend."
+msgstr "Відображає прапорець `is_public` пов'язаного бекенду."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_file__relative_path
+msgid "Relative location for backend"
+msgstr "Відносне місце для бекенду"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_backend_view_form
+msgid ""
+"Served by Odoo option will use `web.base.url` as the base URL.\n"
+"                    <br/>Make sure this parameter is properly configured and accessible\n"
+"                    from everwhere you want to access the service."
+msgstr ""
+"Опція «Обслуговується Odoo» використовуватиме `web.base.url` як базову URL-адресу.\n"
+"                    <br/>Переконайтеся, що цей параметр правильно налаштований і доступний\n"
+"                    з усіх місць, звідки ви хочете отримувати доступ до сервісу."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_file__slug
+msgid "Slug-ified name with ID for URL"
+msgstr "Slug-ім'я з ID для URL"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_file_swap_backend__source_backend_categ_id
+msgid "Source Backend Category"
+msgstr "Категорія бекенду джерела"
+
+#. module: storage_file
+#: model:ir.model.fields,field_description:storage_file.field_storage_backend__url_include_directory_path
+msgid "Url Include Directory Path"
+msgstr "URL містить шлях каталогу"
+
+#. module: storage_file
+#: model_terms:ir.ui.view,arch_db:storage_file.storage_backend_view_form
+msgid ""
+"When served by external service you might have special environment configuration\n"
+"                    for building final files URLs.\n"
+"                    <br/>For performance reasons, the base URL is computed and stored.\n"
+"                    If you change some parameters (eg: in local dev environment or special instances)\n"
+"                    and you still want to see the images you might need to refresh this URL\n"
+"                    to make sure images and/or files are loaded correctly."
+msgstr ""
+"Під час обслуговування зовнішнім сервісом можуть застосовуватися спеціальні налаштування середовища\n"
+"                    для формування кінцевих URL-адрес файлів.\n"
+"                    <br/>З міркувань продуктивності базова URL-адреса обчислюється та зберігається.\n"
+"                    Якщо ви змінюєте деякі параметри (наприклад, у локальному середовищі розробки чи спеціальних інсталяціях)\n"
+"                    і все ще хочете бачити зображення, може знадобитися оновити цю URL-адресу,\n"
+"                    щоб зображення та/або файли завантажувалися правильно."

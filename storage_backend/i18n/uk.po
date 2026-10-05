@@ -104,3 +104,8 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_view_form
 msgid "Test connection"
 msgstr "Перевірити з'єднання"
+
+#. module: storage_backend
+#: model:ir.model.fields,help:storage_backend.field_storage_backend__categ_id
+msgid "Category to group backends for swapping operations"
+msgstr "Категорія для групування бекендів для операцій заміни"

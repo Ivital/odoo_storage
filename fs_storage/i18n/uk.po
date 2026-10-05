@@ -152,3 +152,43 @@ msgstr "Перевірити з'єднання"
 #: model_terms:ir.ui.view,arch_db:fs_storage.fs_test_connection_form_view
 msgid "Test connection"
 msgstr "Перевірити з'єднання"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__options_properties
+msgid "Available properties"
+msgstr "Доступні властивості"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__options_protocol
+msgid "Describes Protocol"
+msgstr "Описує протокол"
+
+#. module: fs_storage
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
+msgid "Enter you fsspec options here."
+msgstr "Введіть параметри fsspec тут."
+
+#. module: fs_storage
+#: model:ir.actions.act_window,name:fs_storage.act_open_fs_test_connection_view
+msgid "FS Test Connection"
+msgstr "Перевірити з’єднання FS"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__eval_options_from_env
+msgid "Resolve env vars"
+msgstr "Розв’язати змінні середовища"
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__code
+msgid ""
+"Technical code used to identify the storage backend into the code.This code "
+"must be unique. This code is used for example to define the storage backend "
+"to store the attachments via the configuration parameter "
+"'ir_attachment.storage.force.database' when the module 'fs_attachment' is "
+"installed."
+msgstr ""
+"Технічний код, що використовується для ідентифікації бекенду сховища в коді."
+" Цей код має бути унікальним. Наприклад, він використовується для визначення"
+" бекенду сховища для зберігання вкладень через параметр конфігурації "
+"'ir_attachment.storage.force.database', коли встановлено модуль "
+"'fs_attachment'."

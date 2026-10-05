@@ -101,3 +101,23 @@ msgstr "Оновити"
 #: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
 msgid "Rename"
 msgstr "Перейменувати"
+
+#. module: fs_folder
+#: model_terms:ir.ui.view,arch_db:fs_folder.fs_storage_form_view
+msgid "Filesystem contents"
+msgstr "Вміст файлової системи"
+
+#. module: fs_folder
+#: model:ir.model.fields,field_description:fs_folder.field_fs_storage__fs_name_sanitization_replace_char
+msgid "Fs Name Sanitization Replace Char"
+msgstr "Символ заміни для очищення назви Fs"
+
+#. module: fs_folder
+#: model:ir.model.fields,field_description:fs_folder.field_fs_storage__sanitize_fs_name
+msgid "Sanitize Fs Name"
+msgstr "Очистити ім’я FS"
+
+#. module: fs_folder
+#: model:ir.model.fields,field_description:fs_folder.field_fs_storage__use_as_default_for_fs_contents
+msgid "Use As Default For Fs Contents"
+msgstr "Використовувати за замовчуванням для вмісту Fs"

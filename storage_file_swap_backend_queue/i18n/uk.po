@@ -22,3 +22,8 @@ msgstr "Бекенд сховища"
 #: model:ir.model.fields,field_description:storage_file_swap_backend_queue.field_storage_file_swap_backend__use_queue
 msgid "Use Queue Jobs"
 msgstr "Використовувати завдання черги"
+
+#. module: storage_file_swap_backend_queue
+#: model:ir.model.fields,field_description:storage_file_swap_backend_queue.field_storage_backend__swap_backend_use_queue
+msgid "Use Queue for Backend Swap"
+msgstr "Використовувати чергу для заміни бекенду"

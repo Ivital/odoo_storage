@@ -47,3 +47,13 @@ msgstr "Інший регіон"
 #: model:ir.model.fields.selection,name:storage_backend_s3.selection__storage_backend__aws_file_acl__private
 msgid "private"
 msgstr "приватний"
+
+#. module: storage_backend_s3
+#: model:ir.model.fields,field_description:storage_backend_s3.field_storage_backend__aws_cache_control
+msgid "Aws Cache Control"
+msgstr "Керування кешем AWS"
+
+#. module: storage_backend_s3
+#: model:ir.model.fields,field_description:storage_backend_s3.field_storage_backend__aws_secret_access_key
+msgid "Secret Access Key"
+msgstr "Секретний ключ доступу"

@@ -208,3 +208,44 @@ msgstr "Типові значення серверного середовища"
 #: model:ir.model.fields,field_description:storage_image_product.field_product_product__variant_image_ids
 msgid "Variant Images"
 msgstr "Зображення варіантів"
+
+#. module: storage_image_product
+#: model:ir.model.fields,field_description:storage_image_product.field_product_image_relation__available_attribute_value_ids
+msgid "Available Attributes"
+msgstr "Доступні атрибути"
+
+#. module: storage_image_product
+#: model:ir.model.fields,field_description:storage_image_product.field_image_tag__categ_img_rel_ids
+msgid "Category Image Relations"
+msgstr "Зв’язки зображень категорії"
+
+#. module: storage_image_product
+#: model_terms:ir.ui.view,arch_db:storage_image_product.product_normal_form_view
+msgid "If you need to edit the images, do it from the product template."
+msgstr "Якщо потрібно редагувати зображення, робіть це з шаблону товару."
+
+#. module: storage_image_product
+#: model:ir.model.fields,field_description:storage_image_product.field_image_tag__product_img_rel_ids
+msgid "Product Image Relations"
+msgstr "Зв’язки зображень товару"
+
+#. module: storage_image_product
+#: model:ir.model.fields,help:storage_image_product.field_category_image_relation__is_public
+#: model:ir.model.fields,help:storage_image_product.field_product_image_relation__is_public
+msgid "Reflects the `is_public` flag of the related backend."
+msgstr "Відображає прапорець `is_public` пов'язаного бекенду."
+
+#. module: storage_image_product
+#: model:ir.model.fields,help:storage_image_product.field_image_tag__tech_name
+msgid "Unique name for technical purposes. Eg: server env keys."
+msgstr "Унікальна назва для технічних цілей. Наприклад: ключі server env."
+
+#. module: storage_image_product
+#: model:ir.model.fields,field_description:storage_image_product.field_product_product__variant_image_medium_url
+msgid "Variant main medium image URL"
+msgstr "URL основного середнього зображення варіанта"
+
+#. module: storage_image_product
+#: model:ir.model.fields,field_description:storage_image_product.field_product_product__variant_image_small_url
+msgid "Variant main small image URL"
+msgstr "URL основного малого зображення варіанта"

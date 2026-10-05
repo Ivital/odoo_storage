@@ -42,3 +42,23 @@ msgstr "Пароль FTP"
 #: model:ir.model.fields.selection,name:storage_backend_ftp.selection__storage_backend__ftp_security__none
 msgid "None"
 msgstr "Немає"
+
+#. module: storage_backend_ftp
+#: model:ir.model.fields.selection,name:storage_backend_ftp.selection__storage_backend__ftp_encryption__tls_explicit
+msgid "Explicit FTP over TLS"
+msgstr "Явний FTP через TLS"
+
+#. module: storage_backend_ftp
+#: model:ir.model.fields,field_description:storage_backend_ftp.field_storage_backend__ftp_encryption
+msgid "FTP Encryption method"
+msgstr "Метод шифрування FTP"
+
+#. module: storage_backend_ftp
+#: model:ir.model.fields,field_description:storage_backend_ftp.field_storage_backend__ftp_security
+msgid "FTP security option"
+msgstr "Параметр безпеки FTP"
+
+#. module: storage_backend_ftp
+#: model:ir.model.fields.selection,name:storage_backend_ftp.selection__storage_backend__ftp_encryption__tls
+msgid "Implicit FTP over TLS"
+msgstr "Неявний FTP через TLS"

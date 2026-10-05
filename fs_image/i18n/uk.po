@@ -52,3 +52,11 @@ msgstr "Очистити"
 #: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
 msgid "Edit"
 msgstr "Редагувати"
+
+#. module: fs_image
+#: model:ir.model.fields,help:fs_image.field_ir_attachment__alt_text
+#: model:ir.model.fields,help:fs_image.field_product_document__alt_text
+msgid "Alternative text for the image. Only used for images on a website."
+msgstr ""
+"Альтернативний текст для зображення. Використовується лише для зображень на "
+"вебсайті."
