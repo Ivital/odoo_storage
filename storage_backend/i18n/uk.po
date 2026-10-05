@@ -109,3 +109,26 @@ msgstr "Перевірити з'єднання"
 #: model:ir.model.fields,help:storage_backend.field_storage_backend__categ_id
 msgid "Category to group backends for swapping operations"
 msgstr "Категорія для групування бекендів для операцій заміни"
+
+#. module: storage_backend
+#. odoo-python
+#: code:addons/storage_backend/models/storage_backend.py:0
+msgid "Connection Test Failed!"
+msgstr "Перевірка з'єднання не вдалася!"
+
+#. module: storage_backend
+#. odoo-python
+#: code:addons/storage_backend/models/storage_backend.py:0
+msgid "Connection Test Succeeded!"
+msgstr "Перевірку з'єднання пройдено успішно!"
+
+#. module: storage_backend
+#. odoo-python
+#: code:addons/storage_backend/models/storage_backend.py:0
+msgid "Everything seems properly set up!"
+msgstr "Схоже, усе налаштовано правильно!"
+
+#. module: storage_backend
+#: model:ir.model.fields,help:storage_backend.field_storage_backend__directory_path
+msgid "Relative path to the directory to store the file"
+msgstr "Відносний шлях до каталогу для зберігання файлу"

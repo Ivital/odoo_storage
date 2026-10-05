@@ -57,3 +57,10 @@ msgstr "Керування кешем AWS"
 #: model:ir.model.fields,field_description:storage_backend_s3.field_storage_backend__aws_secret_access_key
 msgid "Secret Access Key"
 msgstr "Секретний ключ доступу"
+
+#. module: storage_backend_s3
+#: model:ir.model.fields,help:storage_backend_s3.field_storage_backend__aws_host
+msgid "If you are using a different host than standard AWS ones, eg: Exoscale"
+msgstr ""
+"Якщо ви використовуєте хост, відмінний від стандартних AWS, наприклад "
+"Exoscale"

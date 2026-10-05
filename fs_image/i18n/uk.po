@@ -60,3 +60,15 @@ msgid "Alternative text for the image. Only used for images on a website."
 msgstr ""
 "Альтернативний текст для зображення. Використовується лише для зображень на "
 "вебсайті."
+
+#. module: fs_image
+#. odoo-javascript
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.esm.js:0
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+msgid "Alt Text"
+msgstr "Альтернативний текст"
+
+#. module: fs_image
+#: model:ir.model,name:fs_image.model_fs_image_mixin
+msgid "Image Mixin"
+msgstr "Збірне зображення"

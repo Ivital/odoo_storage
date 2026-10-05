@@ -62,3 +62,8 @@ msgstr "Параметр безпеки FTP"
 #: model:ir.model.fields.selection,name:storage_backend_ftp.selection__storage_backend__ftp_encryption__tls
 msgid "Implicit FTP over TLS"
 msgstr "Неявний FTP через TLS"
+
+#. module: storage_backend_ftp
+#: model:ir.model.fields,help:storage_backend_ftp.field_storage_backend__ftp_login
+msgid "Login to connect to ftp server"
+msgstr "Логін для підключення до FTP-сервера"

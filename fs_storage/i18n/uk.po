@@ -192,3 +192,160 @@ msgstr ""
 " бекенду сховища для зберігання вкладень через параметр конфігурації "
 "'ir_attachment.storage.force.database', коли встановлено модуль "
 "'fs_attachment'."
+
+#. module: fs_storage
+#. odoo-python
+#: code:addons/fs_storage/models/fs_storage.py:0
+msgid "Connection Test Failed!"
+msgstr "Перевірка з'єднання не вдалася!"
+
+#. module: fs_storage
+#. odoo-python
+#: code:addons/fs_storage/models/fs_storage.py:0
+msgid "Connection Test Succeeded!"
+msgstr "Перевірку з'єднання пройдено успішно!"
+
+#. module: fs_storage
+#. odoo-python
+#: code:addons/fs_storage/models/fs_storage.py:0
+msgid "Everything seems properly set up!"
+msgstr "Схоже, усе налаштовано правильно!"
+
+#. module: fs_storage
+#: model:ir.model,name:fs_storage.model_fs_test_connection
+msgid "FS Test Connection Wizard"
+msgstr "Майстер перевірки підключення FS"
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__is_cacheable
+msgid ""
+"If True, once instantiated, the filesystem will be cached and reused.\n"
+"By default, the filesystem is cacheable but in some cases, like when using OAuth2 authentication, the filesystem cannot be cached because it depends on the user and the token can change.\n"
+"In this case, you can set this field to False to avoid caching the filesystem."
+msgstr ""
+"Якщо True, після створення екземпляра файлову систему буде кешовано й повторно використано.\n"
+"Типово файлову систему можна кешувати, але в деяких випадках, наприклад під час автентифікації OAuth2, її кешувати не можна, оскільки вона залежить від користувача, а токен може змінюватися.\n"
+"У такому разі встановіть це поле в False, щоб не кешувати файлову систему."
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_ir_model_fields__storage_id
+msgid ""
+"If specified, all attachments linked to this field will be stored in the "
+"provided storage."
+msgstr ""
+"Якщо задано, усі вкладення, пов’язані з цим полем, зберігатимуться у "
+"вказаному сховищі."
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_ir_model__storage_id
+msgid ""
+"If specified, all attachments linked to this model will be stored in the "
+"provided storage."
+msgstr ""
+"Якщо задано, усі вкладення, пов’язані з цією моделлю, зберігатимуться у "
+"вказаному сховищі."
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__field_ids
+msgid ""
+"List of fields such as attachments linked to one of these fields will be "
+"stored in this storage. NB: If the attachment is linked to a field that is "
+"in one FS storage, and the related model is in another FS storage, we will "
+"store it into the storage linked to the resource field."
+msgstr ""
+"Список полів: вкладення, пов'язані з одним із цих полів, зберігатимуться в "
+"цьому сховищі. Примітка: якщо вкладення пов'язане з полем, яке міститься в "
+"одному FS-сховищі, а пов'язана модель — в іншому FS-сховищі, вкладення буде "
+"збережено у сховищі, пов'язаному з полем ресурсу."
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__field_xmlids
+msgid ""
+"List of fields xml ids such as attachments linked to one of these fields "
+"will be stored in this storage. NB: If the attachment is linked to a field "
+"that is in one FS storage, and the related model is in another FS storage, "
+"we will store it into the storage linked to the resource field."
+msgstr ""
+"Список XML-ID полів: вкладення, пов'язані з одним із цих полів, "
+"зберігатимуться в цьому сховищі. Примітка: якщо вкладення пов'язане з полем,"
+" яке міститься в одному FS-сховищі, а пов'язана модель — в іншому FS-"
+"сховищі, вкладення буде збережено у сховищі, пов'язаному з полем ресурсу."
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__model_ids
+msgid ""
+"List of models such as attachments linked to one of these models will be "
+"stored in this storage."
+msgstr "Список моделей, вкладення яких зберігатимуться в цьому сховищі."
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__model_xmlids
+msgid ""
+"List of models xml ids such as attachments linked to one of these models "
+"will be stored in this storage."
+msgstr ""
+"Список XML ID моделей, вкладення яких зберігатимуться в цьому сховищі."
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__directory_path
+msgid "Relative path to the directory to store the file"
+msgstr "Відносний шлях до каталогу для зберігання файлу"
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__check_connection_method
+msgid ""
+"Set a method if you want the connection to remote to be checked every time the storage is used, in order to remove the obsolete connection from the cache.\n"
+"* Create Marker file : Create a file on remote and check it exists\n"
+"* List File : List all files from root directory"
+msgstr ""
+"Установіть метод, якщо хочете перевіряти з'єднання з віддаленим сховищем щоразу при його використанні, щоб застаріле з'єднання видалялось із кешу.\n"
+"* Створити файл-маркер: створити файл у віддаленому сховищі та перевірити його наявність\n"
+"* Список файлів: отримати список усіх файлів із кореневого каталогу"
+
+#. module: fs_storage
+#: model:ir.model.constraint,message:fs_storage.constraint_fs_storage_code_uniq
+msgid "The code must be unique"
+msgstr "Код має бути унікальним"
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__options
+msgid ""
+"The options used to initialize the filesystem.\n"
+"This is a JSON field that depends on the protocol used.\n"
+"For example, for the sftp protocol, you can provide the following:\n"
+"{\n"
+"    'host': 'my.sftp.server',\n"
+"    'ssh_kwrags': {\n"
+"        'username': 'myuser',\n"
+"        'password': 'mypassword',\n"
+"        'port': 22,\n"
+"    }\n"
+"}\n"
+"For more information, please refer to the fsspec documentation:\n"
+"https://filesystem-spec.readthedocs.io/en/latest/api.html#built-in-implementations"
+msgstr ""
+"Параметри, що використовуються для ініціалізації файлової системи.\n"
+"Це JSON-поле, яке залежить від використаного протоколу.\n"
+"Наприклад, для протоколу sftp можна вказати таке:\n"
+"{\n"
+"    'host': 'my.sftp.server',\n"
+"    'ssh_kwrags': {\n"
+"        'username': 'myuser',\n"
+"        'password': 'mypassword',\n"
+"        'port': 22,\n"
+"    }\n"
+"}\n"
+"Докладніше див. документацію fsspec:\n"
+"https://filesystem-spec.readthedocs.io/en/latest/api.html#built-in-implementations"
+
+#. module: fs_storage
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__options_protocol
+#: model:ir.model.fields,help:fs_storage.field_fs_storage__protocol
+msgid ""
+"The protocol used to access the content of filesystem.\n"
+"This list is the one supported by the fsspec library (see https://filesystem-spec.readthedocs.io/en/latest). A filesystem protocolis added by default and refers to the odoo local filesystem.\n"
+"Pay attention that according to the protocol, some options must beprovided through the options field."
+msgstr ""
+"Протокол доступу до вмісту файлової системи.\n"
+"Список відповідає протоколам, які підтримує бібліотека fsspec (див. https://filesystem-spec.readthedocs.io/en/latest). За замовчуванням додається протокол файлової системи, що посилається на локальну файлову систему Odoo.\n"
+"Залежно від протоколу деякі параметри потрібно передати через поле параметрів."

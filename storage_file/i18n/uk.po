@@ -362,3 +362,51 @@ msgstr ""
 "                    Якщо ви змінюєте деякі параметри (наприклад, у локальному середовищі розробки чи спеціальних інсталяціях)\n"
 "                    і все ще хочете бачити зображення, може знадобитися оновити цю URL-адресу,\n"
 "                    щоб зображення та/або файли завантажувалися правильно."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_backend__backend_view_use_internal_url
+msgid ""
+"Decide if Odoo backend views should use the external URL (usually a CDN) or "
+"the internal url with direct access to the storage. This could save you some"
+" money if you pay by CDN traffic."
+msgstr ""
+"Визначає, чи мають подання бекенду Odoo використовувати зовнішню URL-адресу "
+"(зазвичай CDN) або внутрішню URL-адресу з прямим доступом до сховища. Це "
+"може заощадити кошти, якщо ви платите за трафік CDN."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_backend__is_public
+msgid ""
+"Define if every files stored into this backend are public or not. Examples:\n"
+"Private: your file/image can not be displayed is the user is not logged (not available on other website);\n"
+"Public: your file/image can be displayed if nobody is logged (useful to display files on external websites)"
+msgstr ""
+"Визначає, чи всі файли, збережені в цьому бекенді, є публічними. Приклади:\n"
+"Приватний: ваш файл/зображення не може відображатися, якщо користувач не ввійшов у систему (недоступний на іншому вебсайті);\n"
+"Публічний: ваш файл/зображення може відображатися без входу в систему (корисно для відображення файлів на зовнішніх вебсайтах)."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_backend__url_include_directory_path
+msgid ""
+"Normally the directory_path it's for internal usage. If this flag is enabled"
+" the path will be used to compute the public URL."
+msgstr ""
+"Зазвичай directory_path призначений для внутрішнього використання. Якщо "
+"прапорець увімкнено, шлях використовуватиметься для обчислення публічного "
+"URL."
+
+#. module: storage_file
+#: model:ir.model.fields,help:storage_file.field_storage_backend__filename_strategy
+msgid ""
+"Strategy to build the name of the file to be stored.\n"
+"Name and ID: will store the file with its name + its id.\n"
+"SHA Hash: will use the hash of the file as filename (same method as the native attachment storage)"
+msgstr ""
+"Стратегія формування назви файлу, який буде збережено.\n"
+"Назва та ID: файл зберігатиметься з його назвою + id.\n"
+"SHA-хеш: як ім'я файлу використовуватиметься хеш файлу (той самий метод, що й у стандартному сховищі вкладень)."
+
+#. module: storage_file
+#: model:ir.model.constraint,message:storage_file.constraint_storage_file_path_uniq
+msgid "The private path must be uniq per backend"
+msgstr "Приватний шлях має бути унікальним для кожного бекенду"

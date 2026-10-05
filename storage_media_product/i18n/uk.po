@@ -128,3 +128,8 @@ msgstr "HTTP-доступний шлях до файлу"
 #: model:ir.model.fields,help:storage_media_product.field_product_media_relation__is_public
 msgid "Reflects the `is_public` flag of the related backend."
 msgstr "Відображає прапорець `is_public` пов'язаного бекенду."
+
+#. module: storage_media_product
+#: model:ir.model,name:storage_media_product.model_product_media_relation
+msgid "Products and storage media relation"
+msgstr "Зв’язок товарів і носіїв сховища"

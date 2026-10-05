@@ -271,3 +271,13 @@ msgstr "Відносне місце для бекенду"
 #: model:ir.model.fields,help:storage_media.field_storage_media__slug
 msgid "Slug-ified name with ID for URL"
 msgstr "Slug-ім'я з ID для URL"
+
+#. module: storage_media
+#: model:res.groups,name:storage_media.group_media_manager
+msgid "Storage Media Manager"
+msgstr "Менеджер медіа сховища"
+
+#. module: storage_media
+#: model:ir.model,name:storage_media.model_storage_file_replace
+msgid "Wizard template allowing to replace a storage.file"
+msgstr "Шаблон майстра для заміни storage.file"

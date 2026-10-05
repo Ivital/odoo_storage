@@ -249,3 +249,18 @@ msgstr "URL основного середнього зображення вар�
 #: model:ir.model.fields,field_description:storage_image_product.field_product_product__variant_image_small_url
 msgid "Variant main small image URL"
 msgstr "URL основного малого зображення варіанта"
+
+#. module: storage_image_product
+#: model:ir.model,name:storage_image_product.model_category_image_relation
+msgid "Category Image Relation"
+msgstr "Зв’язок зображення категорії"
+
+#. module: storage_image_product
+#: model:ir.model,name:storage_image_product.model_product_image_relation
+msgid "Product Image Relation"
+msgstr "Зв’язок зображення товару"
+
+#. module: storage_image_product
+#: model:ir.model,name:storage_image_product.model_storage_image
+msgid "Storage Image"
+msgstr "Зображення сховища"

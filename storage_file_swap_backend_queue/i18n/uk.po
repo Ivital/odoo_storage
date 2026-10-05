@@ -27,3 +27,18 @@ msgstr "Використовувати завдання черги"
 #: model:ir.model.fields,field_description:storage_file_swap_backend_queue.field_storage_backend__swap_backend_use_queue
 msgid "Use Queue for Backend Swap"
 msgstr "Використовувати чергу для заміни бекенду"
+
+#. module: storage_file_swap_backend_queue
+#: model:ir.model,name:storage_file_swap_backend_queue.model_storage_file_swap_backend
+msgid "Swap storage files between backends"
+msgstr "Переміщувати файли сховища між бекендами"
+
+#. module: storage_file_swap_backend_queue
+#: model:ir.model.fields,help:storage_file_swap_backend_queue.field_storage_backend__swap_backend_use_queue
+#: model:ir.model.fields,help:storage_file_swap_backend_queue.field_storage_file_swap_backend__use_queue
+msgid ""
+"When enabled, swapping files to/from this backend will be dispatched as "
+"asynchronous queue jobs instead of running synchronously."
+msgstr ""
+"Якщо ввімкнено, обмін файлами з цим бекендом/до нього виконуватиметься "
+"асинхронними завданнями черги замість синхронного виконання."

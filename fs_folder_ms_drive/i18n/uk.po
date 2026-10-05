@@ -24,3 +24,8 @@ msgstr "Створив"
 #: code:addons/fs_folder_ms_drive/static/src/fs_folder_ms_drive/fs_folder.esm.js:0
 msgid "Description"
 msgstr "Опис"
+
+#. module: fs_folder_ms_drive
+#: model:ir.model,name:fs_folder_ms_drive.model_fs_folder_field_value_adapter
+msgid "Folder field value adapter"
+msgstr "Адаптер значення поля папки"

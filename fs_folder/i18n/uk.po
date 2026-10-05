@@ -121,3 +121,35 @@ msgstr "Очистити ім’я FS"
 #: model:ir.model.fields,field_description:fs_folder.field_fs_storage__use_as_default_for_fs_contents
 msgid "Use As Default For Fs Contents"
 msgstr "Використовувати за замовчуванням для вмісту Fs"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid "Cut"
+msgstr "Вирізати"
+
+#. module: fs_folder
+#: model:ir.model.fields,help:fs_folder.field_fs_storage__sanitize_fs_name
+msgid ""
+"If checked, the names of the filesystem items created by the fields will be "
+"sanitized. Invalid characters will be replaced by the value provided by the "
+"field 'fs_name_sanitizatio_replace_char'."
+msgstr ""
+"Якщо позначено, назви елементів файлової системи, створених полями, буде "
+"очищено. Недопустимі символи буде замінено значенням, указаним у полі "
+"'fs_name_sanitizatio_replace_char'."
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+msgid "Paste"
+msgstr "Вставити"
+
+#. module: fs_folder
+#: model:ir.model.fields,help:fs_folder.field_fs_storage__fs_name_sanitization_replace_char
+msgid ""
+"The character used to replace the invalid characters in the names of the "
+"filesystem items created by the fields."
+msgstr ""
+"Символ для заміни недопустимих символів у назвах елементів файлової системи,"
+" створених полями."

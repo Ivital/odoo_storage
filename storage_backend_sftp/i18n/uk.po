@@ -57,3 +57,17 @@ msgstr "Приватний SSH-ключ"
 #: model:ir.model.fields,field_description:storage_backend_sftp.field_storage_backend__sftp_auth_method
 msgid "SFTP Authentification Method"
 msgstr "Метод автентифікації SFTP"
+
+#. module: storage_backend_sftp
+#: model:ir.model.fields,help:storage_backend_sftp.field_storage_backend__sftp_ssh_private_key
+msgid ""
+"It's recommended to not store the key here but to provide it via secret env "
+"variable. See `server_environment` docs."
+msgstr ""
+"Рекомендовано не зберігати ключ тут, а передавати його через секретну змінну"
+" середовища. Див. документацію `server_environment`."
+
+#. module: storage_backend_sftp
+#: model:ir.model.fields,help:storage_backend_sftp.field_storage_backend__sftp_login
+msgid "Login to connect to sftp server"
+msgstr "Логін для підключення до SFTP-сервера"

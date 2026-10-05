@@ -225,3 +225,23 @@ msgstr "Відносне місце для бекенду"
 #: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__slug
 msgid "Slug-ified name with ID for URL"
 msgstr "Slug-ім'я з ID для URL"
+
+#. module: storage_thumbnail
+#: model:ir.model.fields,help:storage_thumbnail.field_storage_thumbnail__url_key
+msgid "Specific URL key for generating the url of the image"
+msgstr "Спеціальний ключ URL для створення URL зображення"
+
+#. module: storage_thumbnail
+#: model:ir.model,name:storage_thumbnail.model_storage_file
+msgid "Storage File"
+msgstr "Файл сховища"
+
+#. module: storage_thumbnail
+#: model:ir.model,name:storage_thumbnail.model_storage_thumbnail
+msgid "Storage Thumbnail"
+msgstr "Мініатюра сховища"
+
+#. module: storage_thumbnail
+#: model:ir.model,name:storage_thumbnail.model_thumbnail_mixin
+msgid "Thumbnail Mixin add the thumbnail capability"
+msgstr "Міксин мініатюр додає можливість створення мініатюр"

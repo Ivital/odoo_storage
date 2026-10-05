@@ -137,3 +137,13 @@ msgid ""
 msgstr ""
 "Мініатюра зображення матиме назву base_name + _ + size_x + _ + size_y + . + extension.\n"
 "Якщо не задано, базовою назвою буде назва оригінального зображення. Ця базова назва використовується для пошуку всіх наявних мініатюр зображення, створених із тією самою базовою назвою."
+
+#. module: fs_image_thumbnail
+#: model:ir.model,name:fs_image_thumbnail.model_fs_image_thumbnail_mixin
+msgid "Fs Image Thumbnail Mixin"
+msgstr "Міксин мініатюри FS Image"
+
+#. module: fs_image_thumbnail
+#: model:ir.model,name:fs_image_thumbnail.model_fs_thumbnail
+msgid "Image Thumbnail"
+msgstr "Мініатюра зображення"

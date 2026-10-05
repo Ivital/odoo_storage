@@ -118,3 +118,13 @@ msgstr "Конкретне зображення"
 #: model:ir.model.fields,field_description:fs_base_multi_image.field_fs_image_relation_mixin__specific_image_medium
 msgid "Specific Image (128)"
 msgstr "Спеціальне зображення (128)"
+
+#. module: fs_base_multi_image
+#: model:res.groups,name:fs_base_multi_image.group_image_manager
+msgid "Image Manager"
+msgstr "Менеджер зображень"
+
+#. module: fs_base_multi_image
+#: model:ir.model,name:fs_base_multi_image.model_fs_image_relation_mixin
+msgid "Image Relation"
+msgstr "Зв’язок зображення"

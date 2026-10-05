@@ -19,3 +19,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:image_tag.image_tag_view_search
 msgid "Image Tag"
 msgstr "Тег зображення"
+
+#. module: image_tag
+#: model:res.groups,name:image_tag.group_image_tag_manager
+msgid "Image Tag Manager"
+msgstr "Менеджер тегів зображень"
