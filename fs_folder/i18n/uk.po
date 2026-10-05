@@ -153,3 +153,162 @@ msgid ""
 msgstr ""
 "Символ для заміни недопустимих символів у назвах елементів файлової системи,"
 " створених полями."
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+msgid "Add File"
+msgstr "Додати файл"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid "Add Folder"
+msgstr "Додати папку"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+msgid "Add folder"
+msgstr "Додати папку"
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_folder_field_web_api.py:0
+msgid ""
+"An error occurred while listing files: '%s'\n"
+"This might happen if the folder was moved, renamed or deleted on the external storage.\n"
+"If this is expected you might want to unlink this folder."
+msgstr ""
+"Під час отримання списку файлів сталася помилка: '%s'\n"
+"Це може статися, якщо папку було переміщено, перейменовано або видалено у зовнішньому сховищі.\n"
+"Якщо це очікувано, можливо, слід відв’язати цю папку."
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid ""
+"Are you sure that you want to delete this folder? The folder will be deleted"
+" on your external storage."
+msgstr ""
+"Ви впевнені, що хочете видалити цю папку? Папку буде видалено у зовнішньому "
+"сховищі."
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid "Are you sure that you want to remove this item?"
+msgstr "Ви впевнені, що хочете видалити цей елемент?"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid ""
+"Are you sure that you want to unlink this folder? The folder will be "
+"preserved on your external storage."
+msgstr ""
+"Ви впевнені, що хочете відв’язати цю папку? Папку буде збережено у "
+"зовнішньому сховищі."
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+msgid "Create Folder"
+msgstr "Створити папку"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+msgid "Delete folder"
+msgstr "Видалити папку"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/simple_dialog/simple_dialog.xml:0
+msgid "Folder Name"
+msgstr "Назва папки"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.esm.js:0
+msgid "Modified on"
+msgstr "Змінено"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder_item/fs_folder_item.xml:0
+msgid "More Actions"
+msgstr "Більше дій"
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_storage.py:0
+msgid ""
+"No default storage found for the content of the external filesystem fields "
+"for model %(model)s and field %(field)s. Please set a default storage in the"
+" filesystem storage configuration."
+msgstr ""
+"Не знайдено сховища за замовчуванням для вмісту полів зовнішньої файлової "
+"системи моделі %(model)s і поля %(field)s. Установіть сховище за "
+"замовчуванням у налаштуваннях сховища файлової системи."
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_storage.py:0
+msgid "Only one storage can be used as default for filesystem contents."
+msgstr ""
+"Лише одне сховище можна використовувати як типове для вмісту файлової "
+"системи."
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/upgrades/18.0.2.0.1/post-migration.py:0
+msgid ""
+"The 'fs_folder_environment' module is not available. It is required to "
+"preserve the server environment managed fields of 'fs.storage'. Make it "
+"available on the addons path before upgrading 'fs_folder'."
+msgstr ""
+"Модуль 'fs_folder_environment' недоступний. Він потрібен для збереження "
+"полів 'fs.storage', керованих середовищем сервера. Зробіть його доступним у "
+"шляху addons перед оновленням 'fs_folder'."
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_storage.py:0
+msgid "The character to use as replacement can not be one of '%s'"
+msgstr "Символ для заміни не може бути одним із «%s»"
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_folder_field_web_api.py:0
+msgid "The field is not an external filesystem field."
+msgstr "Поле не є полем зовнішньої файлової системи."
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_storage.py:0
+msgid ""
+"The name '%(name)s' contains invalid characters %(invalid_chars)s.\n"
+"The following chars are not allowed: %(all_invalid_chars)s"
+msgstr ""
+"Назва «%(name)s» містить недійсні символи %(invalid_chars)s.\n"
+"Такі символи заборонені: %(all_invalid_chars)s"
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_folder_field_web_api.py:0
+msgid "Unknown field"
+msgstr "Невідоме поле"
+
+#. module: fs_folder
+#. odoo-python
+#: code:addons/fs_folder/models/fs_folder_field_web_api.py:0
+msgid "Unknown model"
+msgstr "Невідома модель"
+
+#. module: fs_folder
+#. odoo-javascript
+#: code:addons/fs_folder/static/src/fs_folder/fs_folder.xml:0
+msgid "Unlink folder"
+msgstr "Відв’язати папку"

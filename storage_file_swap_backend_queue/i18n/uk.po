@@ -42,3 +42,9 @@ msgid ""
 msgstr ""
 "Якщо ввімкнено, обмін файлами з цим бекендом/до нього виконуватиметься "
 "асинхронними завданнями черги замість синхронного виконання."
+
+#. module: storage_file_swap_backend_queue
+#. odoo-python
+#: code:addons/storage_file_swap_backend_queue/models/storage_file.py:0
+msgid "Destination backend id=%(backend_id)d no longer exists."
+msgstr "Бекенд призначення id=%(backend_id)d більше не існує."

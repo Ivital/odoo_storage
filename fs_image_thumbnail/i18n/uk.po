@@ -147,3 +147,15 @@ msgstr "Міксин мініатюри FS Image"
 #: model:ir.model,name:fs_image_thumbnail.model_fs_thumbnail
 msgid "Image Thumbnail"
 msgstr "Мініатюра зображення"
+
+#. module: fs_image_thumbnail
+#. odoo-python
+#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py:0
+msgid "The base name must be set when multiple images are given"
+msgstr "Базову назву потрібно вказати, коли надано кілька зображень"
+
+#. module: fs_image_thumbnail
+#. odoo-python
+#: code:addons/fs_image_thumbnail/models/fs_image_thumbnail_mixin.py:0
+msgid "The image %(name)s must be attached to an attachment"
+msgstr "Зображення %(name)s має бути прикріплене як вкладення"

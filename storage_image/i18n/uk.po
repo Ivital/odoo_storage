@@ -285,3 +285,9 @@ msgstr "Менеджер зображень"
 #: model:ir.model,name:storage_image.model_image_relation_abstract
 msgid "Image Relation Abstract"
 msgstr "Абстрактний зв’язок зображення"
+
+#. module: storage_image
+#. odoo-javascript
+#: code:addons/storage_image/static/src/js/StorageImageHandle.esm.js:0
+msgid "Records have been successfully rearranged."
+msgstr "Записи успішно впорядковано."

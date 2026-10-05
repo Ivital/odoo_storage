@@ -274,3 +274,51 @@ msgstr ""
 "* MIME-типи зображень (image/png, image/jpeg, ...) менші за 50KB зберігаються в базі даних\n"
 "* application/javascript зберігається в базі даних незалежно від розміру\n"
 "* text/css зберігається в базі даних незалежно від розміру"
+
+#. module: fs_attachment
+#. odoo-python
+#: code:addons/fs_attachment/models/ir_attachment.py:0
+msgid "Only administrators can execute this action."
+msgstr "Лише адміністратори можуть виконувати цю дію."
+
+#. module: fs_attachment
+#. odoo-python
+#: code:addons/fs_attachment/models/fs_storage.py:0
+msgid "Only one storage can be used as default for attachments"
+msgstr "Лише одне сховище можна використовувати як типове для вкладень"
+
+#. module: fs_attachment
+#. odoo-python
+#: code:addons/fs_attachment/upgrades/18.0.2.2.4/post-migration.py:0
+msgid ""
+"The 'fs_attachment_environment' module is not available. It is required to "
+"preserve the server environment managed fields of 'fs.storage'. Make it "
+"available on the addons path before upgrading 'fs_attachment'."
+msgstr ""
+"Модуль 'fs_attachment_environment' недоступний. Він потрібен для збереження "
+"полів 'fs.storage', керованих середовищем сервера. Зробіть його доступним у "
+"шляху addons перед оновленням 'fs_attachment'."
+
+#. module: fs_attachment
+#. odoo-python
+#: code:addons/fs_attachment/models/fs_storage.py:0
+msgid ""
+"The force_db_for_default_attachment_rules can only be set if the storage is "
+"used as default for attachments."
+msgstr ""
+"force_db_for_default_attachment_rules можна встановити лише якщо сховище "
+"використовується як типове для вкладень."
+
+#. module: fs_attachment
+#. odoo-python
+#: code:addons/fs_attachment/models/fs_storage.py:0
+msgid "The force_db_for_default_attachment_rules is not a valid python dict."
+msgstr "force_db_for_default_attachment_rules не є дійсним словником Python."
+
+#. module: fs_attachment
+#. odoo-python
+#: code:addons/fs_attachment/models/ir_attachment.py:0
+msgid ""
+"You can't write on multiple attachments with different mimetypes at the same"
+" time."
+msgstr "Не можна одночасно записувати кілька вкладень із різними MIME-типами."

@@ -64,3 +64,15 @@ msgid "If you are using a different host than standard AWS ones, eg: Exoscale"
 msgstr ""
 "Якщо ви використовуєте хост, відмінний від стандартних AWS, наприклад "
 "Exoscale"
+
+#. module: storage_backend_s3
+#. odoo-python
+#: code:addons/storage_backend_s3/upgrades/18.0.1.1.1/post-migration.py:0
+msgid ""
+"The 'storage_backend_s3_environment' module is not available. It is required"
+" to preserve the server environment managed fields of 'storage.backend'. "
+"Make it available on the addons path before upgrading 'storage_backend_s3'."
+msgstr ""
+"Модуль 'storage_backend_s3_environment' недоступний. Він потрібен для "
+"збереження полів 'storage.backend', керованих середовищем сервера. Зробіть "
+"його доступним у шляху addons перед оновленням 'storage_backend_s3'."

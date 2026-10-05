@@ -24,3 +24,9 @@ msgstr "Очистити"
 #: code:addons/fs_file/static/src/views/fields/fsfile_field.xml:0
 msgid "Edit"
 msgstr "Редагувати"
+
+#. module: fs_file
+#. odoo-javascript
+#: code:addons/fs_file/static/src/views/fields/fsfile_field.xml:0
+msgid "Upload your file"
+msgstr "Завантажте файл"

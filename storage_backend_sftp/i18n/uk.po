@@ -71,3 +71,16 @@ msgstr ""
 #: model:ir.model.fields,help:storage_backend_sftp.field_storage_backend__sftp_login
 msgid "Login to connect to sftp server"
 msgstr "Логін для підключення до SFTP-сервера"
+
+#. module: storage_backend_sftp
+#. odoo-python
+#: code:addons/storage_backend_sftp/upgrades/18.0.1.0.1/post-migration.py:0
+msgid ""
+"The 'storage_backend_sftp_environment' module is not available. It is "
+"required to preserve the server environment managed fields of "
+"'storage.backend'. Make it available on the addons path before upgrading "
+"'storage_backend_sftp'."
+msgstr ""
+"Модуль 'storage_backend_sftp_environment' недоступний. Він потрібен для "
+"збереження полів 'storage.backend', керованих середовищем сервера. Зробіть "
+"його доступним у шляху addons перед оновленням 'storage_backend_sftp'."

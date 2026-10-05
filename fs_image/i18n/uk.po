@@ -72,3 +72,29 @@ msgstr "Альтернативний текст"
 #: model:ir.model,name:fs_image.model_fs_image_mixin
 msgid "Image Mixin"
 msgstr "Збірне зображення"
+
+#. module: fs_image
+#. odoo-javascript
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+msgid "Binary file"
+msgstr "Бінарний файл"
+
+#. module: fs_image
+#. odoo-python
+#: code:addons/fs_image/fields.py:0
+msgid "Cannot set alt_text on empty image (record %(record)s.%(field_name)s)"
+msgstr ""
+"Не можна встановити alt_text для порожнього зображення (запис "
+"%(record)s.%(field_name)s)"
+
+#. module: fs_image
+#. odoo-javascript
+#: code:addons/fs_image/static/src/views/dialogs/alttext_dialog.xml:0
+msgid "Save changes"
+msgstr "Зберегти зміни"
+
+#. module: fs_image
+#. odoo-javascript
+#: code:addons/fs_image/static/src/views/fields/fsimage_field.xml:0
+msgid "Set Alt Text"
+msgstr "Задати альтернативний текст"
