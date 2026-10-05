@@ -1,0 +1,152 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_image_relation_abstract__active
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: storage_image
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_image_view_search
+msgid "Backend"
+msgstr "Бекенд"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__data
+#: model:ir.model.fields,help:storage_image.field_storage_image__data
+msgid "Data"
+msgstr "Дані"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__extension
+msgid "Extension"
+msgstr "Розширення"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__file_id
+msgid "File"
+msgstr "Файл"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__file_size
+msgid "File Size"
+msgstr "Розмір файлу"
+
+#. module: storage_image
+#: model:ir.actions.act_window,name:storage_image.act_open_storage_image_view
+#: model:ir.model.fields,field_description:storage_image.field_image_relation_abstract__image_id
+#: model:ir.model.fields,field_description:storage_image.field_storage_file_replace__image_id
+#: model:ir.model.fields.selection,name:storage_image.selection__storage_file__file_type__image
+#: model:ir.ui.menu,name:storage_image.menu_storage_image
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_file_replace_view_form
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_image_view_form
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_image_view_search
+msgid "Image"
+msgstr "Зображення"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__internal_url
+msgid "Internal Url"
+msgstr "Внутрішній URL"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_image_relation_abstract__is_public
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__is_public
+msgid "Is Public"
+msgstr "Публічний"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__mimetype
+msgid "Mime Type"
+msgstr "MIME-тип"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_image_relation_abstract__image_name
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__name
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_file_replace_view_form
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_image_view_form
+msgid "Name"
+msgstr "Назва"
+
+#. module: storage_image
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_image_view_search
+msgid "Private"
+msgstr "Приватний"
+
+#. module: storage_image
+#: model_terms:ir.ui.view,arch_db:storage_image.storage_image_view_search
+msgid "Public"
+msgstr "Публічний"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_image_relation_abstract__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__backend_id
+msgid "Storage"
+msgstr "Сховище"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__thumb_medium_id
+msgid "Thumb Medium"
+msgstr "Середня мініатюра"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__thumb_small_id
+msgid "Thumb Small"
+msgstr "Мала мініатюра"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__thumbnail_ids
+msgid "Thumbnails"
+msgstr "Мініатюри"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__to_delete
+msgid "To Delete"
+msgstr "До видалення"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__url
+msgid "Url"
+msgstr "URL"
+
+#. module: storage_image
+#: model:ir.model.fields,field_description:storage_image.field_storage_image__url_path
+msgid "Url Path"
+msgstr "Шлях URL"

@@ -1,0 +1,90 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__attribute_value_ids
+msgid "Attributes"
+msgstr "Атрибути"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__is_public
+msgid "Is Public"
+msgstr "Публічний"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_category__media_ids
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__media_id
+#: model:ir.model.fields,field_description:storage_media_product.field_product_product__media_ids
+#: model:ir.model.fields,field_description:storage_media_product.field_product_template__media_ids
+#: model_terms:ir.ui.view,arch_db:storage_media_product.product_category_form_view
+#: model_terms:ir.ui.view,arch_db:storage_media_product.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:storage_media_product.product_template_only_form_view
+msgid "Media"
+msgstr "Носій"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__media_type_id
+msgid "Media Type"
+msgstr "Тип носія"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__product_tmpl_id
+msgid "Product Tmpl"
+msgstr "Шаблон товару"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__url
+msgid "Url"
+msgstr "URL"
+
+#. module: storage_media_product
+#: model:ir.model.fields,field_description:storage_media_product.field_product_media_relation__url_path
+msgid "Url Path"
+msgstr "Шлях URL"

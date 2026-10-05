@@ -12,3 +12,63 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_storage_backend
 msgid "Implement the concept of Storage with amazon S3, sftp..."
 msgstr "Реалізує концепцію сховища з Amazon S3, SFTP..."
+
+#. module: storage_backend
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend_category__backend_ids
+#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_category_view_form
+msgid "Backends"
+msgstr "Бекенди"
+
+#. module: storage_backend
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend__categ_id
+#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_view_search
+msgid "Category"
+msgstr "Категорія"
+
+#. module: storage_backend
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend__create_uid
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend_category__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: storage_backend
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend__create_date
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend_category__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: storage_backend
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend_category__description
+msgid "Description"
+msgstr "Опис"
+
+#. module: storage_backend
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend__display_name
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend_category__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: storage_backend
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend__name
+#: model:ir.model.fields,field_description:storage_backend.field_storage_backend_category__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: storage_backend
+#: model:ir.actions.act_window,name:storage_backend.act_open_storage_backend_view
+#: model:ir.model,name:storage_backend.model_storage_backend
+#: model:ir.ui.menu,name:storage_backend.menu_storage
+#: model:ir.ui.menu,name:storage_backend.menu_storage_backend
+#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_view_form
+#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_view_search
+msgid "Storage Backend"
+msgstr "Бекенд сховища"
+
+#. module: storage_backend
+#: model:ir.actions.act_window,name:storage_backend.act_open_storage_backend_category_view
+#: model:ir.model,name:storage_backend.model_storage_backend_category
+#: model:ir.ui.menu,name:storage_backend.menu_storage_backend_category
+#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_category_view_form
+#: model_terms:ir.ui.view,arch_db:storage_backend.storage_backend_category_view_search
+msgid "Storage Backend Category"
+msgstr "Категорія бекенду сховища"

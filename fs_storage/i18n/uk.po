@@ -17,3 +17,68 @@ msgstr "Бекенд сховища файлової системи"
 #: model:ir.module.module,summary:base.module_fs_storage
 msgid "Implement the concept of Storage with amazon S3, sftp..."
 msgstr "Реалізує концепцію сховища з Amazon S3, SFTP..."
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__code
+msgid "Code"
+msgstr "Код"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__create_uid
+#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__create_date
+#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__display_name
+#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: fs_storage
+#: model:ir.actions.act_window,name:fs_storage.act_open_fs_storage_view
+#: model:ir.model,name:fs_storage.model_fs_storage
+#: model:ir.ui.menu,name:fs_storage.menu_fs_storage
+#: model:ir.ui.menu,name:fs_storage.menu_storage
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_form_view
+#: model_terms:ir.ui.view,arch_db:fs_storage.fs_storage_search_view
+msgid "FS Storage"
+msgstr "Сховище FS"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__field_ids
+msgid "Field"
+msgstr "Поле"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__model_ids
+msgid "Model"
+msgstr "Модель"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__options
+msgid "Options"
+msgstr "Параметри"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_storage__protocol
+msgid "Protocol"
+msgstr "Протокол"
+
+#. module: fs_storage
+#: model:ir.model.fields,field_description:fs_storage.field_fs_test_connection__storage_id
+#: model:ir.model.fields,field_description:fs_storage.field_ir_model__storage_id
+#: model:ir.model.fields,field_description:fs_storage.field_ir_model_fields__storage_id
+msgid "Storage"
+msgstr "Сховище"
